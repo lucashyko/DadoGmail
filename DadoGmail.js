@@ -42,7 +42,7 @@ function DadoGmail(){
 
       }      
         const conteudo = {value, sender, subject, date};
-
+// preciso fazer com que o script adicione uma nova row antes de inserir os dados //
   planilha(conteudo);
     function planilha(conteudo) {
       var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("DadoGmail");
